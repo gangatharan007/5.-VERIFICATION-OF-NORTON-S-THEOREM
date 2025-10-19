@@ -22,22 +22,14 @@ It is the short-circuit current through the load terminals. i.e., IN = Isc
 
 Norton’s Resistance, RN:It is the look-back resistance across the load terminals when all the sources are replaced by their internal resistances. An ideal voltage source is replaced by short- circuiting as its internal resistance is zero. An ideal current source is replaced by open- circuiting as its internal resistance is infinity.
  
-**CIRCUIT DIAGRAM: VERIFICATION OF NORTON’S THEOREM**
-
-**To measure IL**
-
-
-**To measure RTh or RN**
-
-
-
-**To measure IN or Isc**
-
- 
-**Thevenin’s equivalent circuit**
-
-
-**Norton’s equivalent circuit**
+**CIRCUIT DIAGRAM:**
+![ecn 5ep1](https://github.com/user-attachments/assets/45adb207-b180-4407-bdeb-0014523f95f6)
+![ecn 5ep2](https://github.com/user-attachments/assets/8925ea90-f838-4fe1-9e26-08ea6da51a2e)
+**TABULATION:**
+![ecn 5ep 3](https://github.com/user-attachments/assets/af874791-b44b-4f20-a3da-d88037e9d05a)
+**CALCULATION:**
+![ecn 5ep 4](https://github.com/user-attachments/assets/c639bbe2-34ac-4df5-86c7-993813a705b1)
+![ecn 5ep5](https://github.com/user-attachments/assets/88e80365-c034-422c-bb51-7c78c34c478a)
 
 
 **PROCEDURE:**
@@ -64,33 +56,11 @@ Norton’s Resistance, RN:It is the look-back resistance across the load termina
 
 11.	Calculate the IL value using the formula
 
-   	Thevenin’s Theorem IL = VTh/ ( RTh+ R L)
+   	
 
    	Norton’s Theorem IL = IN * RN / ( RN + RL )
 
 12.	Theoretically verify the Norton’s theorem.
-
-**TABULAR COLUMN: 1**
-To measure I L
-
-Vi (volts)	IL (amps)
-
-**TABULAR COLUMN:2**
-
-To measure RTh or RN
-
-Vi (volts)	RTh (Ω)
-
-
-**TABULAR COLUMN:3**
-
-To measure IN or Isc
-
-Vi (volts)	IN (amps)
-	
-**MODEL CALCULATION:**
-
-Practical value of IL (from tabulation 1) =2.3mA
 
 **Verification of Norton’s theorem**
 
@@ -98,6 +68,8 @@ IL = IN * RN / ( RN+ RL ) = 2.43mA
 
 Theoretical calculation of IL ,IN and RTh(RN) for the given circuit:
  
+**MARK SPLIT UP:**
+![ecn 5ep6](https://github.com/user-attachments/assets/e8ba3c39-1f5f-4242-9d98-d1d8fc464d12)
 
 
 **RESULT:**
